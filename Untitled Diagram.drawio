@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2021-12-25T03:54:32.612Z" agent="5.0 (X11)" version="16.1.0" etag="PmoA-xI08fpAoc3wvE3h" type="github"><diagram id="ew8L6lm5BzRy5CFWDwag">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-25T04:06:02.192Z" agent="5.0 (X11)" etag="Rg9B-tMam0NCXLlezzAC" version="16.1.0" type="github">
+  <diagram id="ew8L6lm5BzRy5CFWDwag" name="Page-1">
+    <mxGraphModel dx="1355" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y_4to6kxO0sAiYm3rMff-1" value="将车辆信息和障碍物信息从笛卡尔坐标系转换到frenet坐标系" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_4to6kxO0sAiYm3rMff-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Y_4to6kxO0sAiYm3rMff-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="130" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y_4to6kxO0sAiYm3rMff-3" value="自身车辆信息以及其他障碍物的预测信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="384" y="140" width="126" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_4to6kxO0sAiYm3rMff-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y_4to6kxO0sAiYm3rMff-1" target="Y_4to6kxO0sAiYm3rMff-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="370" as="sourcePoint" />
+            <mxPoint x="380" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y_4to6kxO0sAiYm3rMff-5" value="利用DQN网络进行未来5s决策状态预演，并形成未来5s的自身车辆粗略轨迹" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_4to6kxO0sAiYm3rMff-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y_4to6kxO0sAiYm3rMff-7" target="Y_4to6kxO0sAiYm3rMff-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y_4to6kxO0sAiYm3rMff-7" value="利用DQN进行无模型强化学需训练（离散动作）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_4to6kxO0sAiYm3rMff-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y_4to6kxO0sAiYm3rMff-5" target="Y_4to6kxO0sAiYm3rMff-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="370" as="sourcePoint" />
+            <mxPoint x="380" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y_4to6kxO0sAiYm3rMff-9" value="在粗略轨迹的基础上，通过固定纵向采样距离形成对时间、横向距离的优化问题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_4to6kxO0sAiYm3rMff-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y_4to6kxO0sAiYm3rMff-9" target="Y_4to6kxO0sAiYm3rMff-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="370" as="sourcePoint" />
+            <mxPoint x="380" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y_4to6kxO0sAiYm3rMff-12" value="利用求解器进行优化问题求解" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="524.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_4to6kxO0sAiYm3rMff-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y_4to6kxO0sAiYm3rMff-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="370" as="sourcePoint" />
+            <mxPoint x="380" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y_4to6kxO0sAiYm3rMff-15" value="满足要求的最优轨迹" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="384" y="600" width="126" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
