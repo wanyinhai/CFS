@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-25T04:06:02.192Z" agent="5.0 (X11)" etag="Rg9B-tMam0NCXLlezzAC" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-25T04:08:01.147Z" agent="5.0 (X11)" etag="GEcoAwGU-CUA7gbOgJfs" version="16.1.0" type="github">
   <diagram id="ew8L6lm5BzRy5CFWDwag" name="Page-1">
     <mxGraphModel dx="1355" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
             <mxPoint x="440" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y_4to6kxO0sAiYm3rMff-7" value="利用DQN进行无模型强化学需训练（离散动作）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Y_4to6kxO0sAiYm3rMff-7" value="利用DQN进行无模型强化学习训练（离散动作）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y_4to6kxO0sAiYm3rMff-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y_4to6kxO0sAiYm3rMff-5" target="Y_4to6kxO0sAiYm3rMff-9">
