@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-12-30T03:19:32.878Z" agent="5.0 (X11)" etag="bgNk1Wkk-fZL1EocbAAL" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-30T09:59:04.589Z" agent="5.0 (X11)" etag="HGs37nFhm2ohKGdWgY9i" version="16.1.0" type="github">
   <diagram id="ew8L6lm5BzRy5CFWDwag" name="Page-1">
-    <mxGraphModel dx="1129" dy="661" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="934" dy="547" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sk2q5BEs7lH2EntZwrwr-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="83" y="2865" width="612" height="100" as="geometry" />
+        </mxCell>
         <mxCell id="Y_4to6kxO0sAiYm3rMff-1" value="将车辆信息和障碍物信息从笛卡尔坐标系转换到frenet坐标系" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="190" width="120" height="60" as="geometry" />
         </mxCell>
@@ -80,51 +83,111 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sk2q5BEs7lH2EntZwrwr-5" value="前轮a抬起并安全落在台阶上" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="323" y="1394" width="120" height="60" as="geometry" />
+          <mxGeometry x="323" y="1368" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sk2q5BEs7lH2EntZwrwr-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sk2q5BEs7lH2EntZwrwr-5" target="sk2q5BEs7lH2EntZwrwr-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="393" y="1464" as="sourcePoint" />
-            <mxPoint x="383" y="1514" as="targetPoint" />
+            <mxPoint x="393" y="1438" as="sourcePoint" />
+            <mxPoint x="383" y="1488" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sk2q5BEs7lH2EntZwrwr-9" value="中轮b抬起并向后移动至最大限位处" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="323" y="1504" width="120" height="60" as="geometry" />
+          <mxGeometry x="323" y="1454" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sk2q5BEs7lH2EntZwrwr-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sk2q5BEs7lH2EntZwrwr-9" target="sk2q5BEs7lH2EntZwrwr-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="393" y="1464" as="sourcePoint" />
-            <mxPoint x="383" y="1634" as="targetPoint" />
+            <mxPoint x="393" y="1414" as="sourcePoint" />
+            <mxPoint x="383" y="1584" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sk2q5BEs7lH2EntZwrwr-11" value="后轮c抬起以安全落在台阶上" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="323" y="1618.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="323" y="1537" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sk2q5BEs7lH2EntZwrwr-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sk2q5BEs7lH2EntZwrwr-11">
+        <mxCell id="sk2q5BEs7lH2EntZwrwr-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sk2q5BEs7lH2EntZwrwr-11" target="sk2q5BEs7lH2EntZwrwr-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="393" y="1464" as="sourcePoint" />
-            <mxPoint x="383" y="1744" as="targetPoint" />
+            <mxPoint x="393" y="1382.5" as="sourcePoint" />
+            <mxPoint x="383" y="1662.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sk2q5BEs7lH2EntZwrwr-14" value="步骤二" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="451" y="1402" width="126" height="30" as="geometry" />
+          <mxGeometry x="451" y="1376" width="126" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sk2q5BEs7lH2EntZwrwr-15" value="步骤三" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="451" y="1519" width="126" height="30" as="geometry" />
+          <mxGeometry x="451" y="1469" width="126" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sk2q5BEs7lH2EntZwrwr-16" value="步骤四" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="451" y="1633.5" width="126" height="30" as="geometry" />
+          <mxGeometry x="451" y="1552" width="126" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sk2q5BEs7lH2EntZwrwr-17" value="中轮b移动到中间位置，恢复行驶状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="323" y="1743" width="120" height="60" as="geometry" />
+          <mxGeometry x="323" y="1628" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sk2q5BEs7lH2EntZwrwr-18" value="步骤五" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="451" y="1754" width="126" height="30" as="geometry" />
+          <mxGeometry x="451" y="1639" width="126" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sk2q5BEs7lH2EntZwrwr-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="383.17" y="1803" as="sourcePoint" />
-            <mxPoint x="383" y="1827" as="targetPoint" />
+            <mxPoint x="383.17" y="1688" as="sourcePoint" />
+            <mxPoint x="383" y="1712" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sk2q5BEs7lH2EntZwrwr-20" value="识别任务，包括初始位置、终点位置、障碍物高度、预计用时的确定" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="2772" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sk2q5BEs7lH2EntZwrwr-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="sk2q5BEs7lH2EntZwrwr-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389" y="2719" as="sourcePoint" />
+            <mxPoint x="448" y="2994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sk2q5BEs7lH2EntZwrwr-24" value="前轮越障轨迹的参数确定，包括起点位置、终点位置、越障抬升高度、轨迹段时间分配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="88" y="2894" width="144" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="sk2q5BEs7lH2EntZwrwr-26" value="对四个轨迹规划子问题建立二次规划问题其中包括确定目标函数矩阵、约束函数矩阵" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="308.5" y="3001" width="161" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sk2q5BEs7lH2EntZwrwr-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sk2q5BEs7lH2EntZwrwr-26" target="sk2q5BEs7lH2EntZwrwr-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="398" y="2934" as="sourcePoint" />
+            <mxPoint x="388" y="3104" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sk2q5BEs7lH2EntZwrwr-28" value="利用OOQP求解器对问题进行求解" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="3095" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sk2q5BEs7lH2EntZwrwr-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sk2q5BEs7lH2EntZwrwr-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="398" y="2902.5" as="sourcePoint" />
+            <mxPoint x="388" y="3215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sk2q5BEs7lH2EntZwrwr-30" value="越障任务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="392" y="2723" width="88" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sk2q5BEs7lH2EntZwrwr-32" value="三个车轮的越障轨迹" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="401" y="3169" width="118" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="sk2q5BEs7lH2EntZwrwr-36" value="中轮向右移动至限位处的参数确定" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="2894" width="144" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="sk2q5BEs7lH2EntZwrwr-37" value="中轮在越障时向左移动至限位处，并抬升车轮的参数确定" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="392" y="2894" width="144" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="sk2q5BEs7lH2EntZwrwr-38" value="后轮抬升轨迹的初始状态和末端状态的参数确认" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="544" y="2892" width="144" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="sk2q5BEs7lH2EntZwrwr-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sk2q5BEs7lH2EntZwrwr-20" target="sk2q5BEs7lH2EntZwrwr-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="483" y="3017" as="sourcePoint" />
+            <mxPoint x="533" y="2967" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sk2q5BEs7lH2EntZwrwr-41" value="各个车轮轨迹参数确定" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2864" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sk2q5BEs7lH2EntZwrwr-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sk2q5BEs7lH2EntZwrwr-39" target="sk2q5BEs7lH2EntZwrwr-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="397.5" y="3064" as="sourcePoint" />
+            <mxPoint x="398.44444444444434" y="3114.9999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
